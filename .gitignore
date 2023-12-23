@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules/
+
+# Compiled output
+dist/
+
+# Editor directories and files
+.idea/
+*.iml
+
+# System files
+.DS_Store

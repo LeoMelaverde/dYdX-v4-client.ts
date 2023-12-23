@@ -1,0 +1,25 @@
+{
+  "name": "dydx-v4-client.ts",
+  "version": "1.0.0",
+  "description": "dYdX-v4 Typescript Client.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && shx cp .env dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mela Verde Trading PTE. LTD",
+  "license": "ISC",
+  "dependencies": {
+    "@dydxprotocol/v4-client-js": "^1.0.9",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "lodash": "^4.17.21",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10",
+    "shx": "^0.3.4",
+    "typescript": "^5.3.3"
+  }
+}
